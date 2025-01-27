@@ -1,0 +1,52 @@
+.TH DANICAN 6 "" "Danican 0.5.2"
+.SH NAME
+danican \- International draughts.
+.SH SYNOPSIS
+\fBdanican\fP [ \fB-s\fIsize\fR ] [ \fIfilename\fP ]
+.SH DESCRIPTION
+The X-Window program \fIDanican\fP lets you play international draughts. This
+game is slightly different from the one known as draughts in UK and checkers in
+US. Mainly:
+.TP
+* Board is 10x10 instead of 8x8.
+.TP
+* A man may capture backwards.
+.TP
+* Majority capture precedes.
+.TP
+* A king is a long-range piece.
+.PP
+This software was named \fIDanican\fP in tribute to F.-A. Danican-Philidor, most
+famous chess and draughts player of the 18th century.
+.SS Option
+.TP
+\fB-s\fP
+Sets the size in pixel of one square of the board.
+.SS Notes
+Players can be both human; one human, one computer; both computer. If a player
+is set to computer, one has to click on the board to let it start playing. If
+both players are computer, one has to click on the board at each move.
+.PP
+\fIDanican\fP allows to save and load games using a limited version of PDN
+(Portable Draughts Notation).  For now, the program is unable to handle genuine
+PDN files.
+.SH FILES
+.TP
+\fIbase.pdn\fP
+The opening database.
+.TP
+\fIrules.txt\fP
+Comprehensive rules of the game.
+.SH CREDIT
+The file \fIbase.pdn\fP is mainly based on the file \fItextbook.pdn\fP which
+comes with the archive \fIDragonDraughts-0.2.zip\fP.
+.br
+DragonDraughts is copyright (C) 1996, Michel Grimminck.
+.SH AUTHOR
+Christian Obrecht <obrecht@eukleides.org>.
+.SH CONTACT
+The canonical home page for \fIDanican\fP is
+.br
+<http://obrecht.fr/danican>.
+.PP
+Send bug reports and comments to <obrecht@eukleides.org>.

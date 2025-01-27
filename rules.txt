@@ -1,0 +1,42 @@
+* The game is played on the dark squares of a 10x10 checkered board. From the
+players' point of view, the bottom-left square is a dark one.
+
+* There are 20 white men and 20 black men. At start, they lie on the players'
+four nearest ranks.
+
+* Players move in turn. White begins.
+
+* If a player has no legal move he loses the game.
+
+* A man moves one square diagonally forward, provided this place is vacant.
+
+* If a man ends its move on the last rank, it promotes to king.
+
+* A king moves one or several squares, along a diagonal line, forwards or
+backwards, provided the entire path is empty.
+
+* If next to a man, forwards or backwards, is a square occupied by an
+opponent's piece, then the man captures the piece by jumping over it to the
+square immediately beyond, provided this place is vacant.
+
+* If the man can proceed in a similar way in another direction, except the
+opposite, it must do so, taking care to follow the path that brings the
+maximum number of captured pieces (regardless to their kind). If there's more
+than one way to meet this condition, the player is free to choose.
+
+* If a king sees, at any distance, an opponent's piece and immediately beyond
+one or more subsequent vacant squares, it captures by jumping the piece and
+landing on one of these squares.
+      
+* A king is subject to the same rules regarding majority capture than a man.
+
+* Capture is compulsory.
+
+* If a man, in the course of a multiple capture, visits a square of the last
+rank without ending its move on it, it does not promote.
+
+* In case of a multiple capture, the captured pieces are removed from play
+only after it has taken its complete course.
+
+* In the course of a multiple capture a piece may visit the same square more
+than once, but it may not capture the same piece twice.

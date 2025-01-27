@@ -1,0 +1,59 @@
+DANICAN(6)                                             DANICAN(6)
+
+
+NAME
+       danican - International draughts.
+
+SYNOPSIS
+       danican [ -ssize ] [ filename ]
+
+DESCRIPTION
+       The  X-Window  program Danican lets you play international
+       draughts. This game is slightly  different  from  the  one
+       known as draughts in UK and checkers in US. Mainly:
+
+       * Board is 10x10 instead of 8x8.
+
+       * A man may capture backwards.
+
+       * Majority capture precedes.
+
+       * A king is a long-range piece.
+
+       This  software was named Danican in tribute to F.-A. Dani-
+       can-Philidor, most famous chess and draughts player of the
+       18th century.
+
+   Option
+       -s     Sets  the size in pixel of one square of the board.
+
+   Notes
+       Players can be both human; one human, one  computer;  both
+       computer. If a player is set to computer, one has to click
+       on the board to let it start playing. If both players  are
+       computer, one has to click on the board at each move.
+
+       Danican allows to save and load games using a limited ver-
+       sion of PDN (Portable Draughts Notation).   For  now,  the
+       program is unable to handle genuine PDN files.
+
+FILES
+       base.pdn
+              The opening database.
+
+       rules.txt
+              Comprehensive rules of the game.
+
+CREDIT
+       The file base.pdn is mainly based on the file textbook.pdn
+       which comes with the archive DragonDraughts-0.2.zip.
+       DragonDraughts is copyright (C) 1996, Michel Grimminck.
+
+AUTHOR
+       Christian Obrecht <obrecht@eukleides.org>.
+
+CONTACT
+       The canonical home page for Danican is
+       <http://obrecht.fr/danican>.
+
+       Send bug reports and comments to <obrecht@eukleides.org>.

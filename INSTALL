@@ -1,0 +1,5 @@
+Danican has been developed on a GNU/Linux system. The user interface is based
+on the GTK+ toolkit. 
+
+As usual, type `make' and `make install'. Default installation prefix is 
+`/usr/local/'.
